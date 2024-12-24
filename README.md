@@ -1,0 +1,3 @@
+# Node.js Express.js Async Response Handling Bug
+
+This repository demonstrates a common issue in Node.js Express.js applications involving asynchronous operations within request handlers.  The bug arises from attempting to send multiple responses within a single request handler, which leads to unexpected behavior.  The solution showcases a proper approach to handle asynchronous tasks and send a single, complete response.
